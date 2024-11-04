@@ -38,14 +38,14 @@ namespace CpParcial2dsgc
 		private void btnNuevo_Click(object sender, EventArgs e)
 		{
 			esNuevo = true;
-			Size = new Size(1270, 694);
+			Size = new Size(835, 457);
 			txtSinopsis.Focus();
 		}
 
 		private void btnEditar_Click(object sender, EventArgs e)
 		{
 			esNuevo = false;
-			Size = new Size(1270, 713);
+			Size = new Size(835, 457);
 
 			int index = dgvLista.CurrentCell.RowIndex;
 			int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
@@ -53,7 +53,7 @@ namespace CpParcial2dsgc
 			txtSinopsis.Text = serie.sinopsis;
 			txtTitulo.Text = serie.titulo;
 			txtDirector.Text = serie.director;
-			dtpFechaEstreno.Text = serie.fechaEstreno.ToString("dd/mm/aa");
+			dtpFechaEstreno.Text = serie.fechaEstreno.ToString("dd/MM/yy");
 			nudEpisodios.Value = serie.episodios;
 		}
 
@@ -64,7 +64,7 @@ namespace CpParcial2dsgc
 
 		private void btnCancelar_Click(object sender, EventArgs e)
 		{
-			Size = new Size(1270, 458);
+			Size = new Size(835, 296);
 			limpiar();
 		}
 
@@ -179,7 +179,7 @@ namespace CpParcial2dsgc
 
 		private void FrmSerie_Load(object sender, EventArgs e)
 		{
-			Size = new Size(1270, 450);
+			Size = new Size(835, 296);
 			listar();
 		}
 	}
