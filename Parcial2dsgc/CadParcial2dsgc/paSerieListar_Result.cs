@@ -20,5 +20,6 @@ namespace CadParcial2dsgc
         public int episodios { get; set; }
         public System.DateTime fechaEstreno { get; set; }
         public short estado { get; set; }
+        public string tipoClasificacion { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Parcial2dsgcModelStoreContainer" CdmEntityContainer="Parcial2dsgcEntities">
+  <EntityContainerMapping StorageEntityContainer="Parcial2dsgcModelStoreContainer" CdmEntityContainer="Parcial2dsgcEntities1">
     <EntitySetMapping Name="Serie">
       <EntityTypeMapping TypeName="Parcial2dsgcModel.Serie">
         <MappingFragment StoreEntitySet="Serie">
@@ -11,6 +11,7 @@
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="tipoClasificacion" ColumnName="tipoClasificacion" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -24,6 +25,7 @@
           <ScalarProperty Name="episodios" ColumnName="episodios" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="tipoClasificacion" ColumnName="tipoClasificacion" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

@@ -11,8 +11,9 @@
     <Property Name="episodios" Type="Int32" Nullable="false" />
     <Property Name="fechaEstreno" Type="DateTime" Nullable="false" Precision="0" />
     <Property Name="estado" Type="Int16" Nullable="false" />
+    <Property Name="tipoClasificacion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
   </EntityType>
-  <EntityContainer Name="Parcial2dsgcEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="Parcial2dsgcEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Serie" EntityType="Self.Serie" />
     <FunctionImport Name="paSerieListar" ReturnType="Collection(Parcial2dsgcModel.paSerieListar_Result)">
       <Parameter Name="parametro" Mode="In" Type="String" />
@@ -26,5 +27,6 @@
     <Property Type="Int32" Name="episodios" Nullable="false" />
     <Property Type="DateTime" Name="fechaEstreno" Nullable="false" />
     <Property Type="Int16" Name="estado" Nullable="false" />
+    <Property Type="String" Name="tipoClasificacion" Nullable="false" MaxLength="250" />
   </ComplexType>
 </Schema>

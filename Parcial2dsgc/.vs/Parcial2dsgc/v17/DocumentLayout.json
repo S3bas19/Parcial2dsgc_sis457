@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|solutionrelative:cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E3930F4-C666-4488-8F8B-56DE4F5ED07B}|CadParcial2dsgc\\CadParcial2dsgc.csproj|c:\\info\\desarrollo codigo\\sis457_2024_2_dsgc\\parcial2dsgc\\parcial2dsgc\\cadparcial2dsgc\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6E3930F4-C666-4488-8F8B-56DE4F5ED07B}|CadParcial2dsgc\\CadParcial2dsgc.csproj|solutionrelative:cadparcial2dsgc\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|c:\\info\\desarrollo codigo\\sis457_2024_2_dsgc\\parcial2dsgc\\parcial2dsgc\\cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|solutionrelative:cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|c:\\info\\desarrollo codigo\\sis457_2024_2_dsgc\\parcial2dsgc\\parcial2dsgc\\cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C108F9-B5E4-42B7-BBFA-FB86C02E3300}|CpParcial2dsgc\\CpParcial2dsgc.csproj|solutionrelative:cpparcial2dsgc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{005DE1E4-9B27-489E-A72F-AABDD3C8FDCC}|ClnParcial2dsgc\\ClnParcial2dsgc.csproj|C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\clnparcial2dsgc\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\CadParcial2dsgc\\Model1.edmx",
+              "RelativeDocumentMoniker": "CadParcial2dsgc\\Model1.edmx",
+              "ToolTip": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\CadParcial2dsgc\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2dsgc\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-04T23:50:26.336Z",
+              "EditorCaption": " [Diagram1]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -38,26 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\CpParcial2dsgc\\Form1.cs",
               "RelativeDocumentMoniker": "CpParcial2dsgc\\Form1.cs",
               "ToolTip": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\CpParcial2dsgc\\Form1.cs",
               "RelativeToolTip": "CpParcial2dsgc\\Form1.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwEoAAAAAAAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAswHYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T21:58:28.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SerieCln.cs",
               "DocumentMoniker": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\ClnParcial2dsgc\\SerieCln.cs",
               "RelativeDocumentMoniker": "ClnParcial2dsgc\\SerieCln.cs",
               "ToolTip": "C:\\INFO\\DESARROLLO CODIGO\\sis457_2024_2_DSGC\\Parcial2dsgc\\Parcial2dsgc\\ClnParcial2dsgc\\SerieCln.cs",
               "RelativeToolTip": "ClnParcial2dsgc\\SerieCln.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAwAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T20:46:02.296Z",
               "EditorCaption": ""

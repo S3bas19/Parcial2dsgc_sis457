@@ -14,6 +14,7 @@ GO
 ALTER ROLE [db_owner] ADD MEMBER [usrparcial2]
 GO
 
+DROP TABLE Serie
 CREATE TABLE Serie (
   id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
   titulo VARCHAR(250) NOT NULL,
@@ -21,7 +22,8 @@ CREATE TABLE Serie (
   director VARCHAR(100) NOT NULL,
   episodios INT NOT NULL,
   fechaEstreno DATE NOT NULL,
-  estado SMALLINT NOT NULL
+  estado SMALLINT NOT NULL,
+  tipoClasificacion VARCHAR(250)NOT NULL
 );
 
 INSERT INTO Serie(titulo, sinopsis, director, episodios, fechaEstreno, estado)

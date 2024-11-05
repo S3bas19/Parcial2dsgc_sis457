@@ -15,10 +15,10 @@ namespace CadParcial2dsgc
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class Parcial2dsgcEntities : DbContext
+    public partial class Parcial2dsgcEntities1 : DbContext
     {
-        public Parcial2dsgcEntities()
-            : base("name=Parcial2dsgcEntities")
+        public Parcial2dsgcEntities1()
+            : base("name=Parcial2dsgcEntities1")
         {
         }
     

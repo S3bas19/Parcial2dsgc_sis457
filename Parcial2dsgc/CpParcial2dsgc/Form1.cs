@@ -31,6 +31,7 @@ namespace CpParcial2dsgc
 			dgvLista.Columns["director"].HeaderText = "Director";
 			dgvLista.Columns["episodios"].HeaderText = "Episodios";
 			dgvLista.Columns["fechaEstreno"].HeaderText = "Fecha de estreno";
+			dgvLista.Columns["tipoClasificacion"].HeaderText = "Tipo de Clasificación";
 			btnEditar.Enabled = lista.Count > 0;
 			btnEliminar.Enabled = lista.Count > 0;
 			if (lista.Count > 0) dgvLista.Rows[0].Cells["sinopsis"].Selected = true;
@@ -55,6 +56,7 @@ namespace CpParcial2dsgc
 			txtDirector.Text = serie.director;
 			dtpFechaEstreno.Text = serie.fechaEstreno.ToString("dd/MM/yy");
 			nudEpisodios.Value = serie.episodios;
+			cbxTipoClasificacion.Text = serie.tipoClasificacion;
 		}
 
 		private void btnBuscar_Click(object sender, EventArgs e)
@@ -81,6 +83,7 @@ namespace CpParcial2dsgc
 			erpSinopsis.SetError(txtSinopsis, "");
 			erpEpisodio.SetError(nudEpisodios, "");
 			erpFechaEstreno.SetError(dtpFechaEstreno, "");
+			erpTipoClasificacion.SetError(cbxTipoClasificacion, "");
 
 			if (string.IsNullOrEmpty(txtSinopsis.Text))
 			{
@@ -112,6 +115,11 @@ namespace CpParcial2dsgc
 				esValido = false;
 				erpEpisodio.SetError(nudEpisodios, "El campo episodios debe ser mayor a cero");
 			}
+			if (string.IsNullOrEmpty(cbxTipoClasificacion.Text))
+			{
+				esValido = false;
+				erpTipoClasificacion.SetError(cbxTipoClasificacion, "El campo fecha de estreno no debe estar vacio");
+			}
 			return esValido;
 		}
 
@@ -125,6 +133,7 @@ namespace CpParcial2dsgc
 				serie.sinopsis = txtSinopsis.Text.Trim();
 				serie.episodios = Convert.ToInt32(nudEpisodios.Value);
 				serie.fechaEstreno = DateTime.Parse(dtpFechaEstreno.Text);
+				serie.tipoClasificacion = cbxTipoClasificacion.Text.Trim();
 
 				if (esNuevo)
 				{
@@ -151,6 +160,7 @@ namespace CpParcial2dsgc
 			txtTitulo.Text = string.Empty;
 			dtpFechaEstreno.Text = string.Empty;
 			nudEpisodios.Value = 0;
+			cbxTipoClasificacion.Text = string.Empty;
 		}
 
 		private void btnEliminar_Click(object sender, EventArgs e)

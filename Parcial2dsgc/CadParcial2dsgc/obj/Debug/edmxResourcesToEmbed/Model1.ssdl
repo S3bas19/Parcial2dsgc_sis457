@@ -11,6 +11,7 @@
     <Property Name="episodios" Type="int" Nullable="false" />
     <Property Name="fechaEstreno" Type="date" Nullable="false" />
     <Property Name="estado" Type="smallint" Nullable="false" />
+    <Property Name="tipoClasificacion" Type="varchar" MaxLength="250" Nullable="false" />
   </EntityType>
   <Function Name="paSerieListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="parametro" Type="varchar" Mode="In" />
